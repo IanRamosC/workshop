@@ -1,0 +1,250 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #3399FF;
+}
+.secao-padrao {
+	width: 100%;
+	min-height: 768px;
+	float: left;
+}
+.main {
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.main header {
+	position: absolute;
+
+	width: 100%;
+}
+
+.titulo-principal {
+	display: inline-block;
+	margin: 20px;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	margin-right: 60px;
+	font-size: 20px;
+}
+
+.chamada {
+	width: 400px;
+	margin: 270px auto 0px;
+	text-align: center;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.chamada h2,
+.chamada h3 {
+	color: #FFF;
+}
+
+.chamada h2 {
+	font-size: 30px;
+	display: inline-block;
+}
+
+.chamada .btn {
+	margin-top: 20px;
+}
+
+.btn {
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color: #81CCD0;
+	border: none;
+	color: #FFF;
+	display: table;
+	margin: 0px auto;
+}
+
+.btn-outline {
+	border: 2px solid #81CCD0;
+	background-color: transparent;
+	color: #81CCD0;
+}
+
+.bg-gray {
+	background-color: #EEE;
+}
+
+/* row */
+.row {
+	padding: 110px;
+	overflow: hidden;
+}
+
+.row article {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 100px;
+	background-color: #FFF;
+}
+
+.row article:last-child {
+	margin-bottom: 0px;
+}
+
+.row article div {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.text {
+	padding: 30px;
+}
+
+.image {
+	background-size: cover;
+}
+
+.image.cake {
+	background: url(http://worldinsidepictures.com/wp-content/uploads/2015/03/140.jpg);
+}
+
+.image.pie {
+	background: url("http://vignette4.wikia.nocookie.net/recipes/images/7/70/Shepherd's_Pie_2.jpg");
+}
+
+.row article h3 {
+	color: #444;
+	display: inline-block;
+	margin: 0px;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.row article p {
+	color: #999;
+	line-height: 24px;
+	margin: 30px 0px;
+}
+
+.row article .btn {
+	display: inline-block;
+}
+
+.section-header {
+	width: 615px;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+.section-header h2,
+.section-header h3 {
+	color: #333;
+}
+
+.section-header h2 {
+	font-size: 36px;
+}
+
+.section-header h3 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.gallery {
+	float: left;
+	margin-bottom: 40px;
+}
+
+.gallery img {
+	width: 25%;
+	padding: 0px;
+	float: left;
+	transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+	transform: scale(1.05);
+}
+
+/* Contato */
+.contato {
+	background-color: #1E2832;
+}
+.contato .section-header h2,
+.contato .section-header h3 {
+	color: #FFF;
+}
+
+form {
+	padding-bottom: 70px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+input, textarea {
+	font-size: 14px;
+	color: #CCC;
+	background-color: rgba(255, 255, 255, 0.05);
+	border: none;
+	padding: 15px;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	transition: all 200ms ease-in-out;
+}
+
+input {
+	width: 49%;
+	margin-right: 1%;
+	margin-bottom: 12px;
+	float: left;
+}
+
+input:nth-child(2) {
+	width: 50%;
+	margin-right: 0px;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input:focus,
+textarea:focus {
+	border: 2px solid #81CCD0;
+	outline: none;
+}
+
+.form-buttons {
+	display: table;
+	margin: auto;
+}
+
+.form-buttons .btn {
+	margin: 10px;
+	display: inline-block;
+}
+
+.contato footer {
+	padding: 30px;
+	font-size: 13px;
+	text-align: center;
+	color: #999;
+}
+
+.contato footer a {
+	color: #999;
+	text-decoration: underline;
+}
